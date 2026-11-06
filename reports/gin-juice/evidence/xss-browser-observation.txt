@@ -1,0 +1,9 @@
+Дата: 2026-11-06 (Asia/Yekaterinburg)
+Источник: фактический accessibility snapshot браузера
+URL: https://ginandjuice.shop/catalog?searchTerm=%5C%27%3Balert(20261106)%3B%2F%2F
+1 AXWebArea Description: Products - Gin & Juice Shop
+  2 container ginandjuice.shop says
+    3 text 20261106
+    4 button OK
+getJsDialog(): type: alert
+Примечание: снимок xss-browser.jpg фиксирует страницу, но браузерный alert в JPEG не отображается. Доказательство alert — приведённое текстовое наблюдение.

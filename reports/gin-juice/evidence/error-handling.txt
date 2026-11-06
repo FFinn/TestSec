@@ -1,0 +1,74 @@
+GET https://ginandjuice.shop/catalog?category=%27
+Status: 500
+
+<!DOCTYPE html>
+<html>
+<!--LAB_HEAD_START-->
+    <head>
+        <link href=/resources/labheader/css/scanMeHeader.css rel=stylesheet>
+        <link href=/resources/css/labs.css rel=stylesheet>
+        <link href=/resources/css/labsScanme.css rel=stylesheet>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="/resources/js/react.development.js"></script>
+        <script src="/resources/js/react-dom.development.js"></script>
+        <title>Gin &amp; Juice Shop</title>
+    </head>
+<!--LAB_HEAD_END-->
+        <div id="scanMeHeader">
+            <section class="header-description">
+                <p>
+                    This is a deliberately vulnerable web application designed for testing web&nbsp;vulnerability&nbsp;scanners.
+                    <span class="link" onmouseenter="window.__x1 = 1" onmouseover="window.__x2 = 1" onmousemove="window.__x3 = 1"  onmousedown="window.__x4 = 1" onmouseup="if (window.__x1 && window.__x2 && window.__x3 && window.__x4) location = atob('L3Z1bG5lcmFiaWxpdGllcw==')" onmouseleave="delete window.__x1; delete window.__x2; delete window.__x3; delete window.__x4">Put your scanner to the test!</span>
+                </p>
+            </section>
+            <section class='scanMeBanner'>
+                <div class=container>
+                    <a href='/'>
+                        <div class=scanme-logo></div>
+                    </a>
+                    <div class=title-container>
+                        <nav>
+                            <ul class="navigation-header-links primary-links">
+                                <li>
+                                    <a class="button selected" href="/catalog">Products</a>
+                                </li>
+                                <li>
+                                    <a class="button" href="/blog">Blog</a>
+                                </li>
+                                <li>
+                                    <a class="button" href="/about">Our story</a>
+                                </li>
+                            </ul>
+                            <ul class="navigation-header-links secondary-links">
+                                <li>
+                                    <a class="account-icon" href="/my-account"><svg><use href="/resources/images/icon-account.svg#account-icon"></use></svg></a>
+                                    <ul>
+                                        <li>
+                                            <a class="button" href="/my-account">Log in</a>
+                                        </li>
+                                        <li>
+                                            <a class="button" href="/my-account">My account</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="cart-icon" href="/catalog/cart"><span>0</span><svg><use href="/resources/images/icon-cart.svg#cart-icon"></use></svg></a>
+                                </li>
+                                <li class="nav-toggle"><a class="nav-trigger"><span></span><span></span><span></span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div theme="">
+            <section class="maincontainer">
+                <div class="container is-page">
+                    <h4>Internal Server Error</h4>
+                    <p class=is-warning>Internal Server Error</p>
+                </div>
+            </section>
+        </div>
+        <script src='/resources/footer/js/scanme.js'></script>
+    </body>
+</html>

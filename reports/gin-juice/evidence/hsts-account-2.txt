@@ -1,0 +1,15 @@
+Captured UTC: 2026-11-06T07:31:35.663688+00:00
+Request: GET https://ginandjuice.shop/my-account
+No Cookie, Authorization or injected headers sent. Redirects not followed.
+Status: 302
+Date: Fri, 06 Nov 2026 07:31:35 GMT
+Content-Length: 0
+Connection: close
+Set-Cookie: AWSALB=REDACTED; Expires=Fri, 13 Nov 2026 07:31:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=REDACTED; Expires=Fri, 13 Nov 2026 07:31:35 GMT; Path=/; SameSite=None; Secure
+Location: /login
+Set-Cookie: session=REDACTED; Secure; HttpOnly; SameSite=None
+X-Backend: b6904ce9-d9f1-4626-b638-020b3ea5cf48
+X-Frame-Options: SAMEORIGIN
+
+/my-account repeat=2 status=302 HSTS=[]

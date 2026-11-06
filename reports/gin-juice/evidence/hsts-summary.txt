@@ -1,0 +1,7 @@
+/catalog repeat=1 status=200 HSTS=[]
+/login repeat=1 status=200 HSTS=[]
+/my-account repeat=1 status=302 HSTS=[]
+/catalog repeat=2 status=200 HSTS=[]
+/login repeat=2 status=200 HSTS=[]
+/my-account repeat=2 status=302 HSTS=[]
+CONFIRMED: HSTS absent in all six observed responses.

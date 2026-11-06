@@ -1,0 +1,16 @@
+Captured UTC: 2026-11-06T07:31:31.008718+00:00
+Request: GET https://ginandjuice.shop/catalog
+No Cookie, Authorization or injected headers sent. Redirects not followed.
+Status: 200
+Date: Fri, 06 Nov 2026 07:31:31 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 16840
+Connection: close
+Set-Cookie: AWSALB=REDACTED; Expires=Fri, 13 Nov 2026 07:31:31 GMT; Path=/
+Set-Cookie: AWSALBCORS=REDACTED; Expires=Fri, 13 Nov 2026 07:31:31 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: TrackingId=REDACTED; Secure; HttpOnly
+Set-Cookie: session=REDACTED; Secure; HttpOnly; SameSite=None
+X-Backend: 3dbbf1bb-98b1-4284-a328-78753dd5ae23
+X-Frame-Options: SAMEORIGIN
+
+/catalog repeat=2 status=200 HSTS=[]
